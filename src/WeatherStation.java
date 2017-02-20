@@ -1,3 +1,4 @@
+import java.util.ArrayList;
 import java.util.HashSet;
 import java.util.Iterator;
 import java.util.Set;
@@ -41,6 +42,10 @@ public class WeatherStation implements Subject {
     }
 
     public Set<Observer> getObservers() {
+        ArrayList<String> obsNames;
+        /*for (int i = 0; i<Observers.size(); ++i) {
+            obsNames.set(i, Observers.get
+        }*/
         return Observers;
     }
 
